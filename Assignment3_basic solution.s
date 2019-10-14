@@ -9,12 +9,7 @@
 
 /*
   Assignment 3 - To find the number with the max weight
-  Algorithm used - Efficient method to find the Hamming weight of a number and uses 12 arithmetic operations including one Mul Instruction
-  This method is better for processors with fast MUL operations
-  Reference: https://en.wikipedia.org/wiki/Hamming_weight
-  
-  Pseudo Code:
-  
+  Algorithm used :
   Basic solution 
   while(n != 0) {
       n &= (n-1);
